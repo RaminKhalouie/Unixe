@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unixe - Ramin Khalouie</title>
-    <!-- Icon -->
+    <!-- ====== Icon ====== -->
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-    <!-- Google Font -->
+    <!-- ====== Google Font ====== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
@@ -17,7 +17,45 @@
 </head>
 
 <body>
-
+    <!-- ====== Start MAIN ====== -->
+    <!-- ====== Start header section ====== -->
+    <header class="w-full h-[70vh] md:h-[80vh] py-4 bg-hero_bg bg-cover bg-bottom">
+        <!-- ====== Start nav ====== -->
+        <nav class="w-full h-[80px] lg:container px-4 lg:px-0 mx-auto flex justify-between items-center">
+            <a href="#">
+                <figure>
+                    <img class="w-[10rem]" src="assets/images/logo-main.svg" alt="">
+                </figure>
+            </a>
+            <ul
+                class="hidden lg:flex [&>*>a]:flex [&>*>a]:text-white [&>*>a]:capitalize [&>*>a]:p-4 [&>*>a]:transition-all [&>*>a]:duration-500 [&>*>a:hover]:underline [&>*>a:hover]:underline-offset-4">
+                <li><a href="#">programs</a></li>
+                <li><a href="#">values</a></li>
+                <li><a href="#">testimonails</a></li>
+            </ul>
+            <a href="#"
+                class="py-4 px-8 border border-white text-white uppercase font-bold transition-all duration-500 hover:bg-white hover:text-black">contact</a>
+        </nav>
+        <!-- ====== End nav ====== -->
+        <!-- ====== Start hero section ====== -->
+        <section
+            class="w-full h-[calc(100%-80px)] lg:container px-4 lg:px-0 mx-auto flex  flex-col justify-center items-center gap-2">
+            <span class="text-white tracking-wider font-bold text-1xl mb-2">WELCOME TO UNIXE UNIVERSITY</span>
+            <h1 class="text-white tracking-wider font-bold text-4xl lg:text-6xl text-center lg:w-[70%]">A GATE TO THE
+                NEVER
+                ENDING JOURNEY
+                OF EXCELLENCE</h1>
+            <p class="text-gray-300 mt-8 w-[50%] text-center">Where knowledge and inspiration converge, and dreams
+                take flight towards academic excellence and beyond.
+            </p>
+            <a href="#"
+                class="mt-4 flex px-8 py-4 bg-blue-800 text-white font-bold uppercase hover:scale-x-105 transition-all duration-500">get
+                started</a>
+        </section>
+        <!-- ====== End hero section ====== -->
+    </header>
+    <!-- ====== End header section ====== -->
+    <!-- ====== End MAIN ====== -->
 </body>
 
 </html>
