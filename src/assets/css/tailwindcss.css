@@ -7,3 +7,11 @@
         font-family: "Plus Jakarta Sans", sans-serif;
     }
 }
+
+@layer components{
+    .bg-title{
+        background-image: url("../images/logo-back.png");
+        background-size: 200%;
+        background-position: left;
+    }
+}
