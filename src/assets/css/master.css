@@ -684,6 +684,10 @@ body {
   height: 100%;
 }
 
+.h-\[80vh\] {
+  height: 80vh;
+}
+
 .min-h-\[80vh\] {
   min-height: 80vh;
 }
@@ -702,6 +706,14 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .grid-cols-1 {
@@ -926,6 +938,10 @@ body {
   transition-duration: 500ms;
 }
 
+.\[background-position\:center\] {
+  background-position: center;
+}
+
 @media (min-width: 1024px) {
   .lg\:container {
     width: 100%;
@@ -968,6 +984,10 @@ body {
 
 .\*\:h-\[400px\] > * {
   height: 400px;
+}
+
+.\*\:text-center > * {
+  text-align: center;
 }
 
 .before\:absolute::before {
